@@ -8,5 +8,5 @@ if __name__ == "__main__":
         version="0.1.0",
         package_dir={" ": "eeft"},
         packages=find_packages(where="eeft", include=["eeft", "eeft.*"]),
-        requires=["earthengine-api"],
+        install_requires=["earthengine-api"],
     )
