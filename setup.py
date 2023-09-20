@@ -6,7 +6,6 @@ if __name__ == "__main__":
         name="eeft",
         author="Ryan Hamilton",
         version="0.1.0",
-        package_dir={" ": "eeft"},
-        packages=find_packages(where="eeft", include=["eeft", "eeft.*"]),
+        packages=find_packages(include=["eeft", "eeft.*"]),
         install_requires=["earthengine-api"],
     )
