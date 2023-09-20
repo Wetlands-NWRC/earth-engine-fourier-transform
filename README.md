@@ -6,7 +6,7 @@ This repository is a companion to the [Earth Engine Time Series Modeling](https:
 ## Installation
 ### From Source
 ```bash
-git clone 
+git clone https://github.com/Wetlands-NWRC/earth-engine-fourier-transform.git
 ```
 ```bash
 pip install build
@@ -19,7 +19,7 @@ pip install dist/eeft-0.1.0.tar.gz
 ```
 
 ### From Release (Recommended)
-1) Download the latest release from the [releases page]()
+1) Download the latest release from the [releases page](https://github.com/Wetlands-NWRC/earth-engine-fourier-transform/releases)
 2) move the `eeft.tz.gz` bianries folder to your project directory
 3) pip install `eeft.tgz.gz`
 
